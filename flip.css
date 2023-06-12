@@ -1,0 +1,291 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.head {
+    border: 1px solid rgb(164, 116, 116);
+    display: flex;
+    margin: 10px;
+    background-color: rgb(244, 240, 212);
+}
+
+.head img {
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+}
+
+.text {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px;
+}
+
+.second-div {
+    display: flex;
+    padding: 10px;
+    margin: 0px;
+}
+
+.breadcrumb {
+    background-color: #f2f2f2;
+    padding: 0px;
+}
+
+.breadcrumb-li {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.bc-col {
+    display: inline-block;
+    padding: 5px;
+    color: #333;
+}
+
+.bc-col:not(:last-child)::after {
+    content: ">";
+    margin: 0 5px;
+    color: #777;
+}
+
+.bc-col:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
+.third-div {
+    font-size: 25px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.rating-div {
+    display: flex;
+    padding: 10px;
+    gap: 20px;
+}
+
+.rating-div img {
+    height: 25px;
+    width: 90px;
+}
+
+.rat1 {
+
+    width: 50px;
+    height: 15px;
+    text-align: center;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    border-radius: 3px;
+    padding: 2px;
+    font-size: 15px;
+}
+
+.rat2 {
+    font-size: 18px;
+
+    color: rgb(198, 195, 195);
+
+
+}
+
+.offer {
+
+    font-size: 15px;
+    font-weight: bold;
+    color: green;
+    padding: 0px 10px;
+
+}
+
+.price {
+    display: flex;
+    gap: 20px;
+    color: black;
+    padding: 10px 10px 0px 10px;
+
+}
+
+.p1 {
+    font-size: 30px;
+
+
+}
+
+.p2 {
+    text-align: center;
+    margin-top: 10px;
+    color: lightgray;
+}
+
+.p3 {
+    margin-top: 10px;
+    color: green;
+
+}
+
+.p3~div {
+    margin-left: 0px;
+    margin-top: 10px;
+    color: green;
+
+}
+
+.abl-ofr {
+    padding: 10px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.ul-div img {
+    width: 15px;
+    height: 15px;
+}
+
+.ul-div {
+    padding-left: 10px;
+    margin-top: 10px;
+    list-style: none;
+
+}
+
+.li-div-off span {
+    margin-right: 10px;
+}
+
+.li-div-off {
+    margin-bottom: 10px;
+}
+
+.ul-div li::after {
+    content: none;
+}
+
+.link {
+    color: blue;
+    font-weight: bold;
+
+}
+
+.link:hover {
+    cursor: pointer;
+}
+
+.view-more {
+    padding-left: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    color: blue;
+}
+
+.warranty-cls {
+
+    display: flex;
+    gap: 100px;
+    padding: 10px;
+    margin-top: 20px;
+
+}
+
+.warranty {
+    font-size: 15px;
+    color: grey;
+    font-weight: bold;
+}
+
+.del-box {
+    display: flex;
+}
+
+.add-check {
+    display: flex;
+    gap: 10px;
+    width: 205px;
+    border-bottom: 2px solid blue;
+}
+
+.dlv-date {
+    display: flex;
+    gap: 10px;
+
+}
+
+.del-box {
+    display: flex;
+    gap: 115px;
+    padding: 10px;
+}
+
+.sec-div div {
+    margin-top: 5px;
+}
+
+.d-placeholder input {
+    border: none;
+
+
+}
+
+.delivery-dd {
+    font-weight: bold;
+}
+
+.delivery-dd::after {
+    color: green;
+    content: "|";
+}
+
+.order-time {
+    font-size: 12px;
+
+}
+
+.view-dd {
+    color: blue;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.product-info {
+    display: flex;
+    gap: 200px;
+    padding: 10px;
+}
+
+.highlight {
+    display: flex;
+    gap: 50px;
+
+}
+
+.equipment {
+    width: 225px;
+    padding: 0px;
+
+
+}
+
+.para-d li {
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+.equipment li {
+    margin-bottom: 10px;
+
+}
+
+ul.a {
+    list-style-type: circle;
+}
+
+.bc-col:active {
+    color: black;
+}
